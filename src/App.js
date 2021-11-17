@@ -11,6 +11,7 @@ import '@fontsource/roboto/700.css';
 import Button from '@mui/material/Button';
 
 import { Canvas, useFrame } from '@react-three/fiber'
+import Editor from "./editor/Editor";
 
 function Box(props) {
   // This reference will give us direct access to the THREE.Mesh object
@@ -36,6 +37,7 @@ function Box(props) {
 }
 
 function App() {
+    /*
   return (
     <div className="App">
       <Button variant="text">Text</Button>
@@ -50,6 +52,9 @@ function App() {
       </Canvas>
     </div>
   );
+  */
+
+    return Editor();
 }
 
 export default App;
